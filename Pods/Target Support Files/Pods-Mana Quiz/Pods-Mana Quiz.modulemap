@@ -1,0 +1,6 @@
+framework module Pods_Mana_Quiz {
+  umbrella header "Pods-Mana Quiz-umbrella.h"
+
+  export *
+  module * { export * }
+}

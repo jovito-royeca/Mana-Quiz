@@ -14,6 +14,9 @@
 		110D175B1ED07C7D001C13D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 110D17591ED07C7D001C13D0 /* LaunchScreen.storyboard */; };
 		110D17661ED07C7D001C13D0 /* Mana_QuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110D17651ED07C7D001C13D0 /* Mana_QuizTests.swift */; };
 		110D17711ED07C7D001C13D0 /* Mana_QuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110D17701ED07C7D001C13D0 /* Mana_QuizUITests.swift */; };
+		2DF256BA297DB9FC0BD90AA1 /* Pods_Mana_QuizTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD38687FAC43B027E5004B3A /* Pods_Mana_QuizTests.framework */; };
+		7EFA79EAD414D6AB4151B731 /* Pods_Mana_Quiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2792A0563929F392F41F43B /* Pods_Mana_Quiz.framework */; };
+		D941727FD83506B199EAA538 /* Pods_Mana_QuizUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E408F9FE0CC0CF0797CAE78 /* Pods_Mana_QuizUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06E558E7F79E461B06EABA4B /* Pods-Mana QuizTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mana QuizTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mana QuizTests/Pods-Mana QuizTests.release.xcconfig"; sourceTree = "<group>"; };
 		110D174D1ED07C7D001C13D0 /* Mana Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mana Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		110D17501ED07C7D001C13D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		110D17521ED07C7D001C13D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,14 @@
 		110D176C1ED07C7D001C13D0 /* Mana QuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mana QuizUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		110D17701ED07C7D001C13D0 /* Mana_QuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mana_QuizUITests.swift; sourceTree = "<group>"; };
 		110D17721ED07C7D001C13D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B68A710439A80BD2B42B1D5 /* Pods-Mana Quiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mana Quiz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mana Quiz/Pods-Mana Quiz.debug.xcconfig"; sourceTree = "<group>"; };
+		5E408F9FE0CC0CF0797CAE78 /* Pods_Mana_QuizUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mana_QuizUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DCFE8F55D1055624CD2EFC9 /* Pods-Mana QuizTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mana QuizTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mana QuizTests/Pods-Mana QuizTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BD38687FAC43B027E5004B3A /* Pods_Mana_QuizTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mana_QuizTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2792A0563929F392F41F43B /* Pods_Mana_Quiz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mana_Quiz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C43F3E882AC8BD3F286A0A5B /* Pods-Mana QuizUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mana QuizUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mana QuizUITests/Pods-Mana QuizUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D9F5AACD60287F896A50F23C /* Pods-Mana QuizUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mana QuizUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mana QuizUITests/Pods-Mana QuizUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FA71972DA18BD2053177A2A6 /* Pods-Mana Quiz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mana Quiz.release.xcconfig"; path = "Pods/Target Support Files/Pods-Mana Quiz/Pods-Mana Quiz.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EFA79EAD414D6AB4151B731 /* Pods_Mana_Quiz.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DF256BA297DB9FC0BD90AA1 /* Pods_Mana_QuizTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D941727FD83506B199EAA538 /* Pods_Mana_QuizUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				110D17641ED07C7D001C13D0 /* Mana QuizTests */,
 				110D176F1ED07C7D001C13D0 /* Mana QuizUITests */,
 				110D174E1ED07C7D001C13D0 /* Products */,
+				7287138EB6F6E712DEE2CB4A /* Pods */,
+				3E1E937669B427BD5ADBF04F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +114,9 @@
 		110D174F1ED07C7D001C13D0 /* Mana Quiz */ = {
 			isa = PBXGroup;
 			children = (
+				110D17801ED0826A001C13D0 /* Controller */,
+				110D177F1ED08264001C13D0 /* View */,
+				110D177E1ED0825D001C13D0 /* Model */,
 				110D17501ED07C7D001C13D0 /* AppDelegate.swift */,
 				110D17521ED07C7D001C13D0 /* ViewController.swift */,
 				110D17541ED07C7D001C13D0 /* Main.storyboard */,
@@ -125,6 +145,50 @@
 			path = "Mana QuizUITests";
 			sourceTree = "<group>";
 		};
+		110D177E1ED0825D001C13D0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		110D177F1ED08264001C13D0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		110D17801ED0826A001C13D0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		3E1E937669B427BD5ADBF04F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2792A0563929F392F41F43B /* Pods_Mana_Quiz.framework */,
+				BD38687FAC43B027E5004B3A /* Pods_Mana_QuizTests.framework */,
+				5E408F9FE0CC0CF0797CAE78 /* Pods_Mana_QuizUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7287138EB6F6E712DEE2CB4A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B68A710439A80BD2B42B1D5 /* Pods-Mana Quiz.debug.xcconfig */,
+				FA71972DA18BD2053177A2A6 /* Pods-Mana Quiz.release.xcconfig */,
+				8DCFE8F55D1055624CD2EFC9 /* Pods-Mana QuizTests.debug.xcconfig */,
+				06E558E7F79E461B06EABA4B /* Pods-Mana QuizTests.release.xcconfig */,
+				C43F3E882AC8BD3F286A0A5B /* Pods-Mana QuizUITests.debug.xcconfig */,
+				D9F5AACD60287F896A50F23C /* Pods-Mana QuizUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +196,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 110D17751ED07C7D001C13D0 /* Build configuration list for PBXNativeTarget "Mana Quiz" */;
 			buildPhases = (
+				A718D21AEC74FD567A1EA61B /* [CP] Check Pods Manifest.lock */,
 				110D17491ED07C7D001C13D0 /* Sources */,
 				110D174A1ED07C7D001C13D0 /* Frameworks */,
 				110D174B1ED07C7D001C13D0 /* Resources */,
+				BABBF2B78EC0758E6B70D630 /* [CP] Embed Pods Frameworks */,
+				CD4A5F62069FF8496F972D41 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 110D17781ED07C7D001C13D0 /* Build configuration list for PBXNativeTarget "Mana QuizTests" */;
 			buildPhases = (
+				9F94F66282A00E9A44A9D70B /* [CP] Check Pods Manifest.lock */,
 				110D175D1ED07C7D001C13D0 /* Sources */,
 				110D175E1ED07C7D001C13D0 /* Frameworks */,
 				110D175F1ED07C7D001C13D0 /* Resources */,
+				39EA94FB50EB3CBFDCF2860F /* [CP] Embed Pods Frameworks */,
+				0AB2EFE4DAB487C037C107AE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +237,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 110D177B1ED07C7D001C13D0 /* Build configuration list for PBXNativeTarget "Mana QuizUITests" */;
 			buildPhases = (
+				753AD57C2D43794E2C08C12F /* [CP] Check Pods Manifest.lock */,
 				110D17681ED07C7D001C13D0 /* Sources */,
 				110D17691ED07C7D001C13D0 /* Frameworks */,
 				110D176A1ED07C7D001C13D0 /* Resources */,
+				9331C58C88D8BA90749A8BA0 /* [CP] Embed Pods Frameworks */,
+				DEA8A8EF98B58E30FE965CEB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -253,6 +326,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AB2EFE4DAB487C037C107AE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mana QuizTests/Pods-Mana QuizTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39EA94FB50EB3CBFDCF2860F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mana QuizTests/Pods-Mana QuizTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		753AD57C2D43794E2C08C12F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9331C58C88D8BA90749A8BA0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mana QuizUITests/Pods-Mana QuizUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F94F66282A00E9A44A9D70B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A718D21AEC74FD567A1EA61B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BABBF2B78EC0758E6B70D630 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mana Quiz/Pods-Mana Quiz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD4A5F62069FF8496F972D41 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mana Quiz/Pods-Mana Quiz-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DEA8A8EF98B58E30FE965CEB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Mana QuizUITests/Pods-Mana QuizUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		110D17491ED07C7D001C13D0 /* Sources */ = {
@@ -412,6 +623,7 @@
 		};
 		110D17761ED07C7D001C13D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B68A710439A80BD2B42B1D5 /* Pods-Mana Quiz.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Mana Quiz/Info.plist";
@@ -424,6 +636,7 @@
 		};
 		110D17771ED07C7D001C13D0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA71972DA18BD2053177A2A6 /* Pods-Mana Quiz.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Mana Quiz/Info.plist";
@@ -436,6 +649,7 @@
 		};
 		110D17791ED07C7D001C13D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DCFE8F55D1055624CD2EFC9 /* Pods-Mana QuizTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -450,6 +664,7 @@
 		};
 		110D177A1ED07C7D001C13D0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06E558E7F79E461B06EABA4B /* Pods-Mana QuizTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -464,6 +679,7 @@
 		};
 		110D177C1ED07C7D001C13D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C43F3E882AC8BD3F286A0A5B /* Pods-Mana QuizUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "Mana QuizUITests/Info.plist";
@@ -477,6 +693,7 @@
 		};
 		110D177D1ED07C7D001C13D0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9F5AACD60287F896A50F23C /* Pods-Mana QuizUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "Mana QuizUITests/Info.plist";
@@ -507,6 +724,7 @@
 				110D17771ED07C7D001C13D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		110D17781ED07C7D001C13D0 /* Build configuration list for PBXNativeTarget "Mana QuizTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +733,7 @@
 				110D177A1ED07C7D001C13D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		110D177B1ED07C7D001C13D0 /* Build configuration list for PBXNativeTarget "Mana QuizUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +742,7 @@
 				110D177D1ED07C7D001C13D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
