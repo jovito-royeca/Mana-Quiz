@@ -1,0 +1,1 @@
+../CardMagusKit/CardMagusKit/Classes/CMFormat+CoreDataClass.swift

@@ -1,0 +1,1 @@
+../CardMagusKit/CardMagusKit/Classes/CMCardLegality+CoreDataProperties.swift

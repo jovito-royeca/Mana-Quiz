@@ -1,0 +1,1 @@
+../CardMagusKit/CardMagusKit/Classes/CMForeignName+CoreDataProperties.swift

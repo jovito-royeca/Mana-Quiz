@@ -1,0 +1,3 @@
+[submodule "CardMagusKit"]
+	path = CardMagusKit
+	url = https://github.com/jovito-royeca/CardMagusKit.git

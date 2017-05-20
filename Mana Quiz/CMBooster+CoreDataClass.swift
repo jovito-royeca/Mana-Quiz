@@ -1,0 +1,1 @@
+../CardMagusKit/CardMagusKit/Classes/CMBooster+CoreDataClass.swift

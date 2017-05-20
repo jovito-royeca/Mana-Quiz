@@ -14,6 +14,50 @@
 		110D175B1ED07C7D001C13D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 110D17591ED07C7D001C13D0 /* LaunchScreen.storyboard */; };
 		110D17661ED07C7D001C13D0 /* Mana_QuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110D17651ED07C7D001C13D0 /* Mana_QuizTests.swift */; };
 		110D17711ED07C7D001C13D0 /* Mana_QuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110D17701ED07C7D001C13D0 /* Mana_QuizUITests.swift */; };
+		110D17B01ED0A3AF001C13D0 /* Card Magus.sqlite.zip in Resources */ = {isa = PBXBuildFile; fileRef = 110D17821ED0A3AF001C13D0 /* Card Magus.sqlite.zip */; };
+		110D17B11ED0A3AF001C13D0 /* Card Magus.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 110D17831ED0A3AF001C13D0 /* Card Magus.xcdatamodeld */; };
+		110D17B21ED0A3AF001C13D0 /* CardMagus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110D17851ED0A3AF001C13D0 /* CardMagus.swift */; };
+		110D17B41ED0A3AF001C13D0 /* CMArtist+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110D17871ED0A3AF001C13D0 /* CMArtist+CoreDataClass.swift */; };
+		110D17B51ED0A3AF001C13D0 /* CMArtist+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110D17881ED0A3AF001C13D0 /* CMArtist+CoreDataProperties.swift */; };
+		110D17B61ED0A3AF001C13D0 /* CMBlock+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110D17891ED0A3AF001C13D0 /* CMBlock+CoreDataClass.swift */; };
+		110D17B71ED0A3AF001C13D0 /* CMBlock+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110D178A1ED0A3AF001C13D0 /* CMBlock+CoreDataProperties.swift */; };
+		110D17B81ED0A3AF001C13D0 /* CMBooster+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110D178B1ED0A3AF001C13D0 /* CMBooster+CoreDataClass.swift */; };
+		110D17B91ED0A3AF001C13D0 /* CMBooster+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110D178C1ED0A3AF001C13D0 /* CMBooster+CoreDataProperties.swift */; };
+		110D17BA1ED0A3AF001C13D0 /* CMBorder+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110D178D1ED0A3AF001C13D0 /* CMBorder+CoreDataClass.swift */; };
+		110D17BB1ED0A3AF001C13D0 /* CMBorder+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110D178E1ED0A3AF001C13D0 /* CMBorder+CoreDataProperties.swift */; };
+		110D17BC1ED0A3AF001C13D0 /* CMCard+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110D178F1ED0A3AF001C13D0 /* CMCard+CoreDataClass.swift */; };
+		110D17BD1ED0A3AF001C13D0 /* CMCard+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110D17901ED0A3AF001C13D0 /* CMCard+CoreDataProperties.swift */; };
+		110D17BE1ED0A3AF001C13D0 /* CMCardLegality+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110D17911ED0A3AF001C13D0 /* CMCardLegality+CoreDataClass.swift */; };
+		110D17BF1ED0A3AF001C13D0 /* CMCardLegality+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110D17921ED0A3AF001C13D0 /* CMCardLegality+CoreDataProperties.swift */; };
+		110D17C01ED0A3AF001C13D0 /* CMCardType+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110D17931ED0A3AF001C13D0 /* CMCardType+CoreDataClass.swift */; };
+		110D17C11ED0A3AF001C13D0 /* CMCardType+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110D17941ED0A3AF001C13D0 /* CMCardType+CoreDataProperties.swift */; };
+		110D17C21ED0A3AF001C13D0 /* CMColor+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110D17951ED0A3AF001C13D0 /* CMColor+CoreDataClass.swift */; };
+		110D17C31ED0A3AF001C13D0 /* CMColor+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110D17961ED0A3AF001C13D0 /* CMColor+CoreDataProperties.swift */; };
+		110D17C41ED0A3AF001C13D0 /* CMForeignName+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110D17971ED0A3AF001C13D0 /* CMForeignName+CoreDataClass.swift */; };
+		110D17C51ED0A3AF001C13D0 /* CMForeignName+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110D17981ED0A3AF001C13D0 /* CMForeignName+CoreDataProperties.swift */; };
+		110D17C61ED0A3AF001C13D0 /* CMFormat+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110D17991ED0A3AF001C13D0 /* CMFormat+CoreDataClass.swift */; };
+		110D17C71ED0A3AF001C13D0 /* CMFormat+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110D179A1ED0A3AF001C13D0 /* CMFormat+CoreDataProperties.swift */; };
+		110D17C81ED0A3AF001C13D0 /* CMLanguage+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110D179B1ED0A3AF001C13D0 /* CMLanguage+CoreDataClass.swift */; };
+		110D17C91ED0A3AF001C13D0 /* CMLanguage+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110D179C1ED0A3AF001C13D0 /* CMLanguage+CoreDataProperties.swift */; };
+		110D17CA1ED0A3AF001C13D0 /* CMLayout+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110D179D1ED0A3AF001C13D0 /* CMLayout+CoreDataClass.swift */; };
+		110D17CB1ED0A3AF001C13D0 /* CMLayout+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110D179E1ED0A3AF001C13D0 /* CMLayout+CoreDataProperties.swift */; };
+		110D17CC1ED0A3AF001C13D0 /* CMLegality+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110D179F1ED0A3AF001C13D0 /* CMLegality+CoreDataClass.swift */; };
+		110D17CD1ED0A3AF001C13D0 /* CMLegality+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110D17A01ED0A3AF001C13D0 /* CMLegality+CoreDataProperties.swift */; };
+		110D17CE1ED0A3AF001C13D0 /* CMRarity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110D17A11ED0A3AF001C13D0 /* CMRarity+CoreDataClass.swift */; };
+		110D17CF1ED0A3AF001C13D0 /* CMRarity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110D17A21ED0A3AF001C13D0 /* CMRarity+CoreDataProperties.swift */; };
+		110D17D01ED0A3AF001C13D0 /* CMRuling+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110D17A31ED0A3AF001C13D0 /* CMRuling+CoreDataClass.swift */; };
+		110D17D11ED0A3AF001C13D0 /* CMRuling+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110D17A41ED0A3AF001C13D0 /* CMRuling+CoreDataProperties.swift */; };
+		110D17D21ED0A3AF001C13D0 /* CMSet+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110D17A51ED0A3AF001C13D0 /* CMSet+CoreDataClass.swift */; };
+		110D17D31ED0A3AF001C13D0 /* CMSet+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110D17A61ED0A3AF001C13D0 /* CMSet+CoreDataProperties.swift */; };
+		110D17D41ED0A3AF001C13D0 /* CMSetBooster+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110D17A71ED0A3AF001C13D0 /* CMSetBooster+CoreDataClass.swift */; };
+		110D17D51ED0A3AF001C13D0 /* CMSetBooster+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110D17A81ED0A3AF001C13D0 /* CMSetBooster+CoreDataProperties.swift */; };
+		110D17D61ED0A3AF001C13D0 /* CMSetType+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110D17A91ED0A3AF001C13D0 /* CMSetType+CoreDataClass.swift */; };
+		110D17D71ED0A3AF001C13D0 /* CMSetType+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110D17AA1ED0A3AF001C13D0 /* CMSetType+CoreDataProperties.swift */; };
+		110D17D81ED0A3AF001C13D0 /* CMWatermark+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110D17AB1ED0A3AF001C13D0 /* CMWatermark+CoreDataClass.swift */; };
+		110D17D91ED0A3AF001C13D0 /* CMWatermark+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110D17AC1ED0A3AF001C13D0 /* CMWatermark+CoreDataProperties.swift */; };
+		110D17DA1ED0A3AF001C13D0 /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 110D17AD1ED0A3AF001C13D0 /* fonts */; };
+		110D17DB1ED0A3AF001C13D0 /* images.zip in Resources */ = {isa = PBXBuildFile; fileRef = 110D17AE1ED0A3AF001C13D0 /* images.zip */; };
+		110D17DC1ED0A3AF001C13D0 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110D17AF1ED0A3AF001C13D0 /* NetworkingManager.swift */; };
 		2DF256BA297DB9FC0BD90AA1 /* Pods_Mana_QuizTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD38687FAC43B027E5004B3A /* Pods_Mana_QuizTests.framework */; };
 		7EFA79EAD414D6AB4151B731 /* Pods_Mana_Quiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2792A0563929F392F41F43B /* Pods_Mana_Quiz.framework */; };
 		D941727FD83506B199EAA538 /* Pods_Mana_QuizUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E408F9FE0CC0CF0797CAE78 /* Pods_Mana_QuizUITests.framework */; };
@@ -51,6 +95,50 @@
 		110D176C1ED07C7D001C13D0 /* Mana QuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mana QuizUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		110D17701ED07C7D001C13D0 /* Mana_QuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mana_QuizUITests.swift; sourceTree = "<group>"; };
 		110D17721ED07C7D001C13D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		110D17821ED0A3AF001C13D0 /* Card Magus.sqlite.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = "Card Magus.sqlite.zip"; path = "CardMagusKit/CardMagusKit/Assets/Card Magus.sqlite.zip"; sourceTree = SOURCE_ROOT; };
+		110D17841ED0A3AF001C13D0 /* Card Magus.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Card Magus.xcdatamodel"; sourceTree = "<group>"; };
+		110D17851ED0A3AF001C13D0 /* CardMagus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CardMagus.swift; path = CardMagusKit/CardMagusKit/Classes/CardMagus.swift; sourceTree = SOURCE_ROOT; };
+		110D17871ED0A3AF001C13D0 /* CMArtist+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CMArtist+CoreDataClass.swift"; path = "CardMagusKit/CardMagusKit/Classes/CMArtist+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		110D17881ED0A3AF001C13D0 /* CMArtist+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CMArtist+CoreDataProperties.swift"; path = "CardMagusKit/CardMagusKit/Classes/CMArtist+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		110D17891ED0A3AF001C13D0 /* CMBlock+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CMBlock+CoreDataClass.swift"; path = "CardMagusKit/CardMagusKit/Classes/CMBlock+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		110D178A1ED0A3AF001C13D0 /* CMBlock+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CMBlock+CoreDataProperties.swift"; path = "CardMagusKit/CardMagusKit/Classes/CMBlock+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		110D178B1ED0A3AF001C13D0 /* CMBooster+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CMBooster+CoreDataClass.swift"; path = "CardMagusKit/CardMagusKit/Classes/CMBooster+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		110D178C1ED0A3AF001C13D0 /* CMBooster+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CMBooster+CoreDataProperties.swift"; path = "CardMagusKit/CardMagusKit/Classes/CMBooster+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		110D178D1ED0A3AF001C13D0 /* CMBorder+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CMBorder+CoreDataClass.swift"; path = "CardMagusKit/CardMagusKit/Classes/CMBorder+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		110D178E1ED0A3AF001C13D0 /* CMBorder+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CMBorder+CoreDataProperties.swift"; path = "CardMagusKit/CardMagusKit/Classes/CMBorder+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		110D178F1ED0A3AF001C13D0 /* CMCard+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CMCard+CoreDataClass.swift"; path = "CardMagusKit/CardMagusKit/Classes/CMCard+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		110D17901ED0A3AF001C13D0 /* CMCard+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CMCard+CoreDataProperties.swift"; path = "CardMagusKit/CardMagusKit/Classes/CMCard+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		110D17911ED0A3AF001C13D0 /* CMCardLegality+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CMCardLegality+CoreDataClass.swift"; path = "CardMagusKit/CardMagusKit/Classes/CMCardLegality+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		110D17921ED0A3AF001C13D0 /* CMCardLegality+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CMCardLegality+CoreDataProperties.swift"; path = "CardMagusKit/CardMagusKit/Classes/CMCardLegality+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		110D17931ED0A3AF001C13D0 /* CMCardType+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CMCardType+CoreDataClass.swift"; path = "CardMagusKit/CardMagusKit/Classes/CMCardType+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		110D17941ED0A3AF001C13D0 /* CMCardType+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CMCardType+CoreDataProperties.swift"; path = "CardMagusKit/CardMagusKit/Classes/CMCardType+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		110D17951ED0A3AF001C13D0 /* CMColor+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CMColor+CoreDataClass.swift"; path = "CardMagusKit/CardMagusKit/Classes/CMColor+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		110D17961ED0A3AF001C13D0 /* CMColor+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CMColor+CoreDataProperties.swift"; path = "CardMagusKit/CardMagusKit/Classes/CMColor+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		110D17971ED0A3AF001C13D0 /* CMForeignName+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CMForeignName+CoreDataClass.swift"; path = "CardMagusKit/CardMagusKit/Classes/CMForeignName+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		110D17981ED0A3AF001C13D0 /* CMForeignName+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CMForeignName+CoreDataProperties.swift"; path = "CardMagusKit/CardMagusKit/Classes/CMForeignName+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		110D17991ED0A3AF001C13D0 /* CMFormat+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CMFormat+CoreDataClass.swift"; path = "CardMagusKit/CardMagusKit/Classes/CMFormat+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		110D179A1ED0A3AF001C13D0 /* CMFormat+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CMFormat+CoreDataProperties.swift"; path = "CardMagusKit/CardMagusKit/Classes/CMFormat+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		110D179B1ED0A3AF001C13D0 /* CMLanguage+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CMLanguage+CoreDataClass.swift"; path = "CardMagusKit/CardMagusKit/Classes/CMLanguage+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		110D179C1ED0A3AF001C13D0 /* CMLanguage+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CMLanguage+CoreDataProperties.swift"; path = "CardMagusKit/CardMagusKit/Classes/CMLanguage+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		110D179D1ED0A3AF001C13D0 /* CMLayout+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CMLayout+CoreDataClass.swift"; path = "CardMagusKit/CardMagusKit/Classes/CMLayout+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		110D179E1ED0A3AF001C13D0 /* CMLayout+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CMLayout+CoreDataProperties.swift"; path = "CardMagusKit/CardMagusKit/Classes/CMLayout+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		110D179F1ED0A3AF001C13D0 /* CMLegality+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CMLegality+CoreDataClass.swift"; path = "CardMagusKit/CardMagusKit/Classes/CMLegality+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		110D17A01ED0A3AF001C13D0 /* CMLegality+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CMLegality+CoreDataProperties.swift"; path = "CardMagusKit/CardMagusKit/Classes/CMLegality+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		110D17A11ED0A3AF001C13D0 /* CMRarity+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CMRarity+CoreDataClass.swift"; path = "CardMagusKit/CardMagusKit/Classes/CMRarity+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		110D17A21ED0A3AF001C13D0 /* CMRarity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CMRarity+CoreDataProperties.swift"; path = "CardMagusKit/CardMagusKit/Classes/CMRarity+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		110D17A31ED0A3AF001C13D0 /* CMRuling+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CMRuling+CoreDataClass.swift"; path = "CardMagusKit/CardMagusKit/Classes/CMRuling+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		110D17A41ED0A3AF001C13D0 /* CMRuling+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CMRuling+CoreDataProperties.swift"; path = "CardMagusKit/CardMagusKit/Classes/CMRuling+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		110D17A51ED0A3AF001C13D0 /* CMSet+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CMSet+CoreDataClass.swift"; path = "CardMagusKit/CardMagusKit/Classes/CMSet+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		110D17A61ED0A3AF001C13D0 /* CMSet+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CMSet+CoreDataProperties.swift"; path = "CardMagusKit/CardMagusKit/Classes/CMSet+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		110D17A71ED0A3AF001C13D0 /* CMSetBooster+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CMSetBooster+CoreDataClass.swift"; path = "CardMagusKit/CardMagusKit/Classes/CMSetBooster+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		110D17A81ED0A3AF001C13D0 /* CMSetBooster+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CMSetBooster+CoreDataProperties.swift"; path = "CardMagusKit/CardMagusKit/Classes/CMSetBooster+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		110D17A91ED0A3AF001C13D0 /* CMSetType+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CMSetType+CoreDataClass.swift"; path = "CardMagusKit/CardMagusKit/Classes/CMSetType+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		110D17AA1ED0A3AF001C13D0 /* CMSetType+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CMSetType+CoreDataProperties.swift"; path = "CardMagusKit/CardMagusKit/Classes/CMSetType+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		110D17AB1ED0A3AF001C13D0 /* CMWatermark+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CMWatermark+CoreDataClass.swift"; path = "CardMagusKit/CardMagusKit/Classes/CMWatermark+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		110D17AC1ED0A3AF001C13D0 /* CMWatermark+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CMWatermark+CoreDataProperties.swift"; path = "CardMagusKit/CardMagusKit/Classes/CMWatermark+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		110D17AD1ED0A3AF001C13D0 /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = fonts; path = CardMagusKit/CardMagusKit/Assets/fonts; sourceTree = SOURCE_ROOT; };
+		110D17AE1ED0A3AF001C13D0 /* images.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; name = images.zip; path = CardMagusKit/CardMagusKit/Assets/images.zip; sourceTree = SOURCE_ROOT; };
+		110D17AF1ED0A3AF001C13D0 /* NetworkingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NetworkingManager.swift; path = CardMagusKit/CardMagusKit/Classes/NetworkingManager.swift; sourceTree = SOURCE_ROOT; };
 		3B68A710439A80BD2B42B1D5 /* Pods-Mana Quiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mana Quiz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mana Quiz/Pods-Mana Quiz.debug.xcconfig"; sourceTree = "<group>"; };
 		5E408F9FE0CC0CF0797CAE78 /* Pods_Mana_QuizUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mana_QuizUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DCFE8F55D1055624CD2EFC9 /* Pods-Mana QuizTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mana QuizTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mana QuizTests/Pods-Mana QuizTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -114,6 +202,7 @@
 		110D174F1ED07C7D001C13D0 /* Mana Quiz */ = {
 			isa = PBXGroup;
 			children = (
+				110D17811ED0970C001C13D0 /* CardMagusKit */,
 				110D17801ED0826A001C13D0 /* Controller */,
 				110D177F1ED08264001C13D0 /* View */,
 				110D177E1ED0825D001C13D0 /* Model */,
@@ -164,6 +253,57 @@
 			children = (
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		110D17811ED0970C001C13D0 /* CardMagusKit */ = {
+			isa = PBXGroup;
+			children = (
+				110D17821ED0A3AF001C13D0 /* Card Magus.sqlite.zip */,
+				110D17831ED0A3AF001C13D0 /* Card Magus.xcdatamodeld */,
+				110D17851ED0A3AF001C13D0 /* CardMagus.swift */,
+				110D17871ED0A3AF001C13D0 /* CMArtist+CoreDataClass.swift */,
+				110D17881ED0A3AF001C13D0 /* CMArtist+CoreDataProperties.swift */,
+				110D17891ED0A3AF001C13D0 /* CMBlock+CoreDataClass.swift */,
+				110D178A1ED0A3AF001C13D0 /* CMBlock+CoreDataProperties.swift */,
+				110D178B1ED0A3AF001C13D0 /* CMBooster+CoreDataClass.swift */,
+				110D178C1ED0A3AF001C13D0 /* CMBooster+CoreDataProperties.swift */,
+				110D178D1ED0A3AF001C13D0 /* CMBorder+CoreDataClass.swift */,
+				110D178E1ED0A3AF001C13D0 /* CMBorder+CoreDataProperties.swift */,
+				110D178F1ED0A3AF001C13D0 /* CMCard+CoreDataClass.swift */,
+				110D17901ED0A3AF001C13D0 /* CMCard+CoreDataProperties.swift */,
+				110D17911ED0A3AF001C13D0 /* CMCardLegality+CoreDataClass.swift */,
+				110D17921ED0A3AF001C13D0 /* CMCardLegality+CoreDataProperties.swift */,
+				110D17931ED0A3AF001C13D0 /* CMCardType+CoreDataClass.swift */,
+				110D17941ED0A3AF001C13D0 /* CMCardType+CoreDataProperties.swift */,
+				110D17951ED0A3AF001C13D0 /* CMColor+CoreDataClass.swift */,
+				110D17961ED0A3AF001C13D0 /* CMColor+CoreDataProperties.swift */,
+				110D17971ED0A3AF001C13D0 /* CMForeignName+CoreDataClass.swift */,
+				110D17981ED0A3AF001C13D0 /* CMForeignName+CoreDataProperties.swift */,
+				110D17991ED0A3AF001C13D0 /* CMFormat+CoreDataClass.swift */,
+				110D179A1ED0A3AF001C13D0 /* CMFormat+CoreDataProperties.swift */,
+				110D179B1ED0A3AF001C13D0 /* CMLanguage+CoreDataClass.swift */,
+				110D179C1ED0A3AF001C13D0 /* CMLanguage+CoreDataProperties.swift */,
+				110D179D1ED0A3AF001C13D0 /* CMLayout+CoreDataClass.swift */,
+				110D179E1ED0A3AF001C13D0 /* CMLayout+CoreDataProperties.swift */,
+				110D179F1ED0A3AF001C13D0 /* CMLegality+CoreDataClass.swift */,
+				110D17A01ED0A3AF001C13D0 /* CMLegality+CoreDataProperties.swift */,
+				110D17A11ED0A3AF001C13D0 /* CMRarity+CoreDataClass.swift */,
+				110D17A21ED0A3AF001C13D0 /* CMRarity+CoreDataProperties.swift */,
+				110D17A31ED0A3AF001C13D0 /* CMRuling+CoreDataClass.swift */,
+				110D17A41ED0A3AF001C13D0 /* CMRuling+CoreDataProperties.swift */,
+				110D17A51ED0A3AF001C13D0 /* CMSet+CoreDataClass.swift */,
+				110D17A61ED0A3AF001C13D0 /* CMSet+CoreDataProperties.swift */,
+				110D17A71ED0A3AF001C13D0 /* CMSetBooster+CoreDataClass.swift */,
+				110D17A81ED0A3AF001C13D0 /* CMSetBooster+CoreDataProperties.swift */,
+				110D17A91ED0A3AF001C13D0 /* CMSetType+CoreDataClass.swift */,
+				110D17AA1ED0A3AF001C13D0 /* CMSetType+CoreDataProperties.swift */,
+				110D17AB1ED0A3AF001C13D0 /* CMWatermark+CoreDataClass.swift */,
+				110D17AC1ED0A3AF001C13D0 /* CMWatermark+CoreDataProperties.swift */,
+				110D17AD1ED0A3AF001C13D0 /* fonts */,
+				110D17AE1ED0A3AF001C13D0 /* images.zip */,
+				110D17AF1ED0A3AF001C13D0 /* NetworkingManager.swift */,
+			);
+			name = CardMagusKit;
 			sourceTree = "<group>";
 		};
 		3E1E937669B427BD5ADBF04F /* Frameworks */ = {
@@ -306,8 +446,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				110D175B1ED07C7D001C13D0 /* LaunchScreen.storyboard in Resources */,
+				110D17B01ED0A3AF001C13D0 /* Card Magus.sqlite.zip in Resources */,
+				110D17DA1ED0A3AF001C13D0 /* fonts in Resources */,
 				110D17581ED07C7D001C13D0 /* Assets.xcassets in Resources */,
 				110D17561ED07C7D001C13D0 /* Main.storyboard in Resources */,
+				110D17DB1ED0A3AF001C13D0 /* images.zip in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -470,8 +613,49 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				110D17C71ED0A3AF001C13D0 /* CMFormat+CoreDataProperties.swift in Sources */,
+				110D17CA1ED0A3AF001C13D0 /* CMLayout+CoreDataClass.swift in Sources */,
+				110D17B81ED0A3AF001C13D0 /* CMBooster+CoreDataClass.swift in Sources */,
+				110D17B61ED0A3AF001C13D0 /* CMBlock+CoreDataClass.swift in Sources */,
+				110D17D01ED0A3AF001C13D0 /* CMRuling+CoreDataClass.swift in Sources */,
+				110D17DC1ED0A3AF001C13D0 /* NetworkingManager.swift in Sources */,
+				110D17BF1ED0A3AF001C13D0 /* CMCardLegality+CoreDataProperties.swift in Sources */,
+				110D17B51ED0A3AF001C13D0 /* CMArtist+CoreDataProperties.swift in Sources */,
+				110D17CF1ED0A3AF001C13D0 /* CMRarity+CoreDataProperties.swift in Sources */,
+				110D17D41ED0A3AF001C13D0 /* CMSetBooster+CoreDataClass.swift in Sources */,
+				110D17B71ED0A3AF001C13D0 /* CMBlock+CoreDataProperties.swift in Sources */,
+				110D17D91ED0A3AF001C13D0 /* CMWatermark+CoreDataProperties.swift in Sources */,
+				110D17C41ED0A3AF001C13D0 /* CMForeignName+CoreDataClass.swift in Sources */,
+				110D17B11ED0A3AF001C13D0 /* Card Magus.xcdatamodeld in Sources */,
+				110D17B21ED0A3AF001C13D0 /* CardMagus.swift in Sources */,
+				110D17D31ED0A3AF001C13D0 /* CMSet+CoreDataProperties.swift in Sources */,
+				110D17D81ED0A3AF001C13D0 /* CMWatermark+CoreDataClass.swift in Sources */,
+				110D17D71ED0A3AF001C13D0 /* CMSetType+CoreDataProperties.swift in Sources */,
+				110D17C91ED0A3AF001C13D0 /* CMLanguage+CoreDataProperties.swift in Sources */,
+				110D17BC1ED0A3AF001C13D0 /* CMCard+CoreDataClass.swift in Sources */,
 				110D17531ED07C7D001C13D0 /* ViewController.swift in Sources */,
+				110D17B41ED0A3AF001C13D0 /* CMArtist+CoreDataClass.swift in Sources */,
+				110D17D11ED0A3AF001C13D0 /* CMRuling+CoreDataProperties.swift in Sources */,
+				110D17B91ED0A3AF001C13D0 /* CMBooster+CoreDataProperties.swift in Sources */,
+				110D17CB1ED0A3AF001C13D0 /* CMLayout+CoreDataProperties.swift in Sources */,
+				110D17C61ED0A3AF001C13D0 /* CMFormat+CoreDataClass.swift in Sources */,
+				110D17C11ED0A3AF001C13D0 /* CMCardType+CoreDataProperties.swift in Sources */,
+				110D17BE1ED0A3AF001C13D0 /* CMCardLegality+CoreDataClass.swift in Sources */,
+				110D17CE1ED0A3AF001C13D0 /* CMRarity+CoreDataClass.swift in Sources */,
+				110D17C01ED0A3AF001C13D0 /* CMCardType+CoreDataClass.swift in Sources */,
+				110D17CC1ED0A3AF001C13D0 /* CMLegality+CoreDataClass.swift in Sources */,
+				110D17C51ED0A3AF001C13D0 /* CMForeignName+CoreDataProperties.swift in Sources */,
+				110D17C31ED0A3AF001C13D0 /* CMColor+CoreDataProperties.swift in Sources */,
+				110D17D61ED0A3AF001C13D0 /* CMSetType+CoreDataClass.swift in Sources */,
+				110D17C81ED0A3AF001C13D0 /* CMLanguage+CoreDataClass.swift in Sources */,
+				110D17D21ED0A3AF001C13D0 /* CMSet+CoreDataClass.swift in Sources */,
+				110D17D51ED0A3AF001C13D0 /* CMSetBooster+CoreDataProperties.swift in Sources */,
 				110D17511ED07C7D001C13D0 /* AppDelegate.swift in Sources */,
+				110D17BD1ED0A3AF001C13D0 /* CMCard+CoreDataProperties.swift in Sources */,
+				110D17CD1ED0A3AF001C13D0 /* CMLegality+CoreDataProperties.swift in Sources */,
+				110D17C21ED0A3AF001C13D0 /* CMColor+CoreDataClass.swift in Sources */,
+				110D17BA1ED0A3AF001C13D0 /* CMBorder+CoreDataClass.swift in Sources */,
+				110D17BB1ED0A3AF001C13D0 /* CMBorder+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -567,7 +751,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -612,7 +796,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -745,6 +929,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		110D17831ED0A3AF001C13D0 /* Card Magus.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				110D17841ED0A3AF001C13D0 /* Card Magus.xcdatamodel */,
+			);
+			currentVersion = 110D17841ED0A3AF001C13D0 /* Card Magus.xcdatamodel */;
+			name = "Card Magus.xcdatamodeld";
+			path = "../CardMagusKit/CardMagusKit/Assets/Card Magus.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 110D17451ED07C7D001C13D0 /* Project object */;
 }

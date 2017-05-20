@@ -1,0 +1,1 @@
+../CardMagusKit/CardMagusKit/Classes/CMBorder+CoreDataClass.swift
