@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		110D17511ED07C7D001C13D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110D17501ED07C7D001C13D0 /* AppDelegate.swift */; };
+		110D17531ED07C7D001C13D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110D17521ED07C7D001C13D0 /* ViewController.swift */; };
+		110D17561ED07C7D001C13D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 110D17541ED07C7D001C13D0 /* Main.storyboard */; };
+		110D17581ED07C7D001C13D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 110D17571ED07C7D001C13D0 /* Assets.xcassets */; };
+		110D175B1ED07C7D001C13D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 110D17591ED07C7D001C13D0 /* LaunchScreen.storyboard */; };
+		110D17661ED07C7D001C13D0 /* Mana_QuizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110D17651ED07C7D001C13D0 /* Mana_QuizTests.swift */; };
+		110D17711ED07C7D001C13D0 /* Mana_QuizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 110D17701ED07C7D001C13D0 /* Mana_QuizUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		110D17621ED07C7D001C13D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 110D17451ED07C7D001C13D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 110D174C1ED07C7D001C13D0;
+			remoteInfo = "Mana Quiz";
+		};
+		110D176D1ED07C7D001C13D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 110D17451ED07C7D001C13D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 110D174C1ED07C7D001C13D0;
+			remoteInfo = "Mana Quiz";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		110D174D1ED07C7D001C13D0 /* Mana Quiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mana Quiz.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		110D17501ED07C7D001C13D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		110D17521ED07C7D001C13D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		110D17551ED07C7D001C13D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		110D17571ED07C7D001C13D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		110D175A1ED07C7D001C13D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		110D175C1ED07C7D001C13D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		110D17611ED07C7D001C13D0 /* Mana QuizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mana QuizTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		110D17651ED07C7D001C13D0 /* Mana_QuizTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mana_QuizTests.swift; sourceTree = "<group>"; };
+		110D17671ED07C7D001C13D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		110D176C1ED07C7D001C13D0 /* Mana QuizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mana QuizUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		110D17701ED07C7D001C13D0 /* Mana_QuizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mana_QuizUITests.swift; sourceTree = "<group>"; };
+		110D17721ED07C7D001C13D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		110D174A1ED07C7D001C13D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		110D175E1ED07C7D001C13D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		110D17691ED07C7D001C13D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		110D17441ED07C7D001C13D0 = {
+			isa = PBXGroup;
+			children = (
+				110D174F1ED07C7D001C13D0 /* Mana Quiz */,
+				110D17641ED07C7D001C13D0 /* Mana QuizTests */,
+				110D176F1ED07C7D001C13D0 /* Mana QuizUITests */,
+				110D174E1ED07C7D001C13D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		110D174E1ED07C7D001C13D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				110D174D1ED07C7D001C13D0 /* Mana Quiz.app */,
+				110D17611ED07C7D001C13D0 /* Mana QuizTests.xctest */,
+				110D176C1ED07C7D001C13D0 /* Mana QuizUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		110D174F1ED07C7D001C13D0 /* Mana Quiz */ = {
+			isa = PBXGroup;
+			children = (
+				110D17501ED07C7D001C13D0 /* AppDelegate.swift */,
+				110D17521ED07C7D001C13D0 /* ViewController.swift */,
+				110D17541ED07C7D001C13D0 /* Main.storyboard */,
+				110D17571ED07C7D001C13D0 /* Assets.xcassets */,
+				110D17591ED07C7D001C13D0 /* LaunchScreen.storyboard */,
+				110D175C1ED07C7D001C13D0 /* Info.plist */,
+			);
+			path = "Mana Quiz";
+			sourceTree = "<group>";
+		};
+		110D17641ED07C7D001C13D0 /* Mana QuizTests */ = {
+			isa = PBXGroup;
+			children = (
+				110D17651ED07C7D001C13D0 /* Mana_QuizTests.swift */,
+				110D17671ED07C7D001C13D0 /* Info.plist */,
+			);
+			path = "Mana QuizTests";
+			sourceTree = "<group>";
+		};
+		110D176F1ED07C7D001C13D0 /* Mana QuizUITests */ = {
+			isa = PBXGroup;
+			children = (
+				110D17701ED07C7D001C13D0 /* Mana_QuizUITests.swift */,
+				110D17721ED07C7D001C13D0 /* Info.plist */,
+			);
+			path = "Mana QuizUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		110D174C1ED07C7D001C13D0 /* Mana Quiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 110D17751ED07C7D001C13D0 /* Build configuration list for PBXNativeTarget "Mana Quiz" */;
+			buildPhases = (
+				110D17491ED07C7D001C13D0 /* Sources */,
+				110D174A1ED07C7D001C13D0 /* Frameworks */,
+				110D174B1ED07C7D001C13D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mana Quiz";
+			productName = "Mana Quiz";
+			productReference = 110D174D1ED07C7D001C13D0 /* Mana Quiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		110D17601ED07C7D001C13D0 /* Mana QuizTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 110D17781ED07C7D001C13D0 /* Build configuration list for PBXNativeTarget "Mana QuizTests" */;
+			buildPhases = (
+				110D175D1ED07C7D001C13D0 /* Sources */,
+				110D175E1ED07C7D001C13D0 /* Frameworks */,
+				110D175F1ED07C7D001C13D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				110D17631ED07C7D001C13D0 /* PBXTargetDependency */,
+			);
+			name = "Mana QuizTests";
+			productName = "Mana QuizTests";
+			productReference = 110D17611ED07C7D001C13D0 /* Mana QuizTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		110D176B1ED07C7D001C13D0 /* Mana QuizUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 110D177B1ED07C7D001C13D0 /* Build configuration list for PBXNativeTarget "Mana QuizUITests" */;
+			buildPhases = (
+				110D17681ED07C7D001C13D0 /* Sources */,
+				110D17691ED07C7D001C13D0 /* Frameworks */,
+				110D176A1ED07C7D001C13D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				110D176E1ED07C7D001C13D0 /* PBXTargetDependency */,
+			);
+			name = "Mana QuizUITests";
+			productName = "Mana QuizUITests";
+			productReference = 110D176C1ED07C7D001C13D0 /* Mana QuizUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		110D17451ED07C7D001C13D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Jovito Royeca";
+				TargetAttributes = {
+					110D174C1ED07C7D001C13D0 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					110D17601ED07C7D001C13D0 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 110D174C1ED07C7D001C13D0;
+					};
+					110D176B1ED07C7D001C13D0 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 110D174C1ED07C7D001C13D0;
+					};
+				};
+			};
+			buildConfigurationList = 110D17481ED07C7D001C13D0 /* Build configuration list for PBXProject "Mana Quiz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 110D17441ED07C7D001C13D0;
+			productRefGroup = 110D174E1ED07C7D001C13D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				110D174C1ED07C7D001C13D0 /* Mana Quiz */,
+				110D17601ED07C7D001C13D0 /* Mana QuizTests */,
+				110D176B1ED07C7D001C13D0 /* Mana QuizUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		110D174B1ED07C7D001C13D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				110D175B1ED07C7D001C13D0 /* LaunchScreen.storyboard in Resources */,
+				110D17581ED07C7D001C13D0 /* Assets.xcassets in Resources */,
+				110D17561ED07C7D001C13D0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		110D175F1ED07C7D001C13D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		110D176A1ED07C7D001C13D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		110D17491ED07C7D001C13D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				110D17531ED07C7D001C13D0 /* ViewController.swift in Sources */,
+				110D17511ED07C7D001C13D0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		110D175D1ED07C7D001C13D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				110D17661ED07C7D001C13D0 /* Mana_QuizTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		110D17681ED07C7D001C13D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				110D17711ED07C7D001C13D0 /* Mana_QuizUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		110D17631ED07C7D001C13D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 110D174C1ED07C7D001C13D0 /* Mana Quiz */;
+			targetProxy = 110D17621ED07C7D001C13D0 /* PBXContainerItemProxy */;
+		};
+		110D176E1ED07C7D001C13D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 110D174C1ED07C7D001C13D0 /* Mana Quiz */;
+			targetProxy = 110D176D1ED07C7D001C13D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		110D17541ED07C7D001C13D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				110D17551ED07C7D001C13D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		110D17591ED07C7D001C13D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				110D175A1ED07C7D001C13D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		110D17731ED07C7D001C13D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		110D17741ED07C7D001C13D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		110D17761ED07C7D001C13D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Mana Quiz/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jovitoroyeca.Mana-Quiz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		110D17771ED07C7D001C13D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Mana Quiz/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jovitoroyeca.Mana-Quiz";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		110D17791ED07C7D001C13D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Mana QuizTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jovitoroyeca.Mana-QuizTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mana Quiz.app/Mana Quiz";
+			};
+			name = Debug;
+		};
+		110D177A1ED07C7D001C13D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Mana QuizTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jovitoroyeca.Mana-QuizTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mana Quiz.app/Mana Quiz";
+			};
+			name = Release;
+		};
+		110D177C1ED07C7D001C13D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Mana QuizUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jovitoroyeca.Mana-QuizUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Mana Quiz";
+			};
+			name = Debug;
+		};
+		110D177D1ED07C7D001C13D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Mana QuizUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jovitoroyeca.Mana-QuizUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Mana Quiz";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		110D17481ED07C7D001C13D0 /* Build configuration list for PBXProject "Mana Quiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				110D17731ED07C7D001C13D0 /* Debug */,
+				110D17741ED07C7D001C13D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		110D17751ED07C7D001C13D0 /* Build configuration list for PBXNativeTarget "Mana Quiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				110D17761ED07C7D001C13D0 /* Debug */,
+				110D17771ED07C7D001C13D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		110D17781ED07C7D001C13D0 /* Build configuration list for PBXNativeTarget "Mana QuizTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				110D17791ED07C7D001C13D0 /* Debug */,
+				110D177A1ED07C7D001C13D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		110D177B1ED07C7D001C13D0 /* Build configuration list for PBXNativeTarget "Mana QuizUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				110D177C1ED07C7D001C13D0 /* Debug */,
+				110D177D1ED07C7D001C13D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 110D17451ED07C7D001C13D0 /* Project object */;
+}
