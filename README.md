@@ -6,12 +6,12 @@ Spend your mana to reveal the card's name. Or save your mana and get on top of t
 
 ## Cloning
 
-Clone the GitHub repository and open the project workspace Autobase24.xcworkspace.
+Clone the GitHub repository and open the project workspace Mana-Quiz.xcworkspace.
 
 ```
-$ git clone https://github.com/jovito-royeca/Autobase24.git
-$ cd Autobase24
-$ open Autobase24.xcworkspace
+$ git clone https://github.com/jovito-royeca/Mana-Quiz.git
+$ cd Mana-Quiz
+$ open Mana-Quiz.xcworkspace
 ```
 
 ## Author
