@@ -61,6 +61,9 @@
 		1126436E1ED1C310005E8FB2 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1126436C1ED1C310005E8FB2 /* HomeViewController.swift */; };
 		112643761ED1C86C005E8FB2 /* audio in Resources */ = {isa = PBXBuildFile; fileRef = 112643731ED1C86C005E8FB2 /* audio */; };
 		112643781ED1C86C005E8FB2 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 112643751ED1C86C005E8FB2 /* images */; };
+		11F52F3B1ED2A416007133B8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 11F52F3A1ED2A416007133B8 /* GoogleService-Info.plist */; };
+		11F52F3C1ED2A416007133B8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 11F52F3A1ED2A416007133B8 /* GoogleService-Info.plist */; };
+		11F52F3D1ED2A416007133B8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 11F52F3A1ED2A416007133B8 /* GoogleService-Info.plist */; };
 		2DF256BA297DB9FC0BD90AA1 /* Pods_Mana_QuizTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD38687FAC43B027E5004B3A /* Pods_Mana_QuizTests.framework */; };
 		7EFA79EAD414D6AB4151B731 /* Pods_Mana_Quiz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2792A0563929F392F41F43B /* Pods_Mana_Quiz.framework */; };
 		D941727FD83506B199EAA538 /* Pods_Mana_QuizUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E408F9FE0CC0CF0797CAE78 /* Pods_Mana_QuizUITests.framework */; };
@@ -144,6 +147,7 @@
 		1126436C1ED1C310005E8FB2 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		112643731ED1C86C005E8FB2 /* audio */ = {isa = PBXFileReference; lastKnownFileType = folder; path = audio; sourceTree = "<group>"; };
 		112643751ED1C86C005E8FB2 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		11F52F3A1ED2A416007133B8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3B68A710439A80BD2B42B1D5 /* Pods-Mana Quiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mana Quiz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mana Quiz/Pods-Mana Quiz.debug.xcconfig"; sourceTree = "<group>"; };
 		5E408F9FE0CC0CF0797CAE78 /* Pods_Mana_QuizUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mana_QuizUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DCFE8F55D1055624CD2EFC9 /* Pods-Mana QuizTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mana QuizTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mana QuizTests/Pods-Mana QuizTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -217,6 +221,7 @@
 				110D17571ED07C7D001C13D0 /* Assets.xcassets */,
 				110D17591ED07C7D001C13D0 /* LaunchScreen.storyboard */,
 				110D175C1ED07C7D001C13D0 /* Info.plist */,
+				11F52F3A1ED2A416007133B8 /* GoogleService-Info.plist */,
 			);
 			path = "Mana Quiz";
 			sourceTree = "<group>";
@@ -462,6 +467,7 @@
 			files = (
 				112643781ED1C86C005E8FB2 /* images in Resources */,
 				110D175B1ED07C7D001C13D0 /* LaunchScreen.storyboard in Resources */,
+				11F52F3B1ED2A416007133B8 /* GoogleService-Info.plist in Resources */,
 				110D17B01ED0A3AF001C13D0 /* Card Magus.sqlite.zip in Resources */,
 				112643761ED1C86C005E8FB2 /* audio in Resources */,
 				110D17DA1ED0A3AF001C13D0 /* fonts in Resources */,
@@ -475,6 +481,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11F52F3C1ED2A416007133B8 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +489,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11F52F3D1ED2A416007133B8 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
