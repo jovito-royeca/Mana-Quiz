@@ -1,5 +1,5 @@
 //
-//  MenuScene.swift
+//  QuizScene.swift
 //  Mana Quiz
 //
 //  Created by Jovito Royeca on 24/05/2017.
@@ -11,16 +11,16 @@ import CoreGraphics
 import SpriteKit
 import GameplayKit
 
-class MenuScene: BaseScene {
+class QuizScene: BaseScene {
     
     // MARK: Variables
-    private var playLabel : SKLabelNode?
+    private var backLabel : SKLabelNode?
     
     // MARK: Overrides
     override func sceneDidLoad() {
         super.sceneDidLoad()
         
-        playLabel = self.childNode(withName: "//playLabel") as? SKLabelNode
+        backLabel = self.childNode(withName: "//backLabel") as? SKLabelNode
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -28,15 +28,10 @@ class MenuScene: BaseScene {
             let pos = touch.location(in: self)
             let node = self.atPoint(pos)
             
-            if node == playLabel {
-                if let view = view {
-                    let scene = QuizScene(fileNamed: "QuizScene")
-                    scene!.scaleMode = .aspectFill
-                    scene!.previousScene = self
-                    view.presentScene(scene)
-                }
+            if node == backLabel {
+                goBack()
             }
         }
     }
-    
+
 }
