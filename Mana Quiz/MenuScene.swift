@@ -14,10 +14,10 @@ import GameplayKit
 class MenuScene: BaseScene {
     
     // MARK: Variables
-    private var titleLabel : SKLabelNode?
-    private var playLabel : SKLabelNode?
-    private var accountLabel : SKLabelNode?
-    private var leaderboardLabel : SKLabelNode?
+    var titleLabel: SKLabelNode?
+    var playLabel: SKLabelNode?
+    var accountLabel: SKLabelNode?
+    var leaderboardLabel: SKLabelNode?
     
     // MARK: Overrides
     override func sceneDidLoad() {

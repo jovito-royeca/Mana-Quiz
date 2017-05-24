@@ -20,6 +20,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         FirebaseApp.configure()
         
+        let docsPath = NSSearchPathForDirectoriesInDomains(.documentDirectory, .userDomainMask, true).first
+        print("docsPath=\(docsPath!)")
+        CardMagus.sharedInstance.copyDatabaseFile()
+        
         return true
     }
 

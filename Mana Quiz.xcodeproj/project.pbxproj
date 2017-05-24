@@ -72,6 +72,10 @@
 		11C665531ED5735600DD889F /* BaseScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C665511ED5735600DD889F /* BaseScene.swift */; };
 		11C665551ED5CAB800DD889F /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 11C665541ED5CAB800DD889F /* fonts */; };
 		11C665561ED5CAB800DD889F /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 11C665541ED5CAB800DD889F /* fonts */; };
+		11C665591ED5D34100DD889F /* ManaQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C665581ED5D34100DD889F /* ManaQuiz.swift */; };
+		11C6655A1ED5D34100DD889F /* ManaQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C665581ED5D34100DD889F /* ManaQuiz.swift */; };
+		11C6655B1ED5D34100DD889F /* ManaQuiz.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C665581ED5D34100DD889F /* ManaQuiz.swift */; };
+		11C6655C1ED5D8AD00DD889F /* Card Magus.xcdatamodeld in Resources */ = {isa = PBXBuildFile; fileRef = 110D17831ED0A3AF001C13D0 /* Card Magus.xcdatamodeld */; };
 		11F52F3B1ED2A416007133B8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 11F52F3A1ED2A416007133B8 /* GoogleService-Info.plist */; };
 		11F52F3C1ED2A416007133B8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 11F52F3A1ED2A416007133B8 /* GoogleService-Info.plist */; };
 		11F52F3D1ED2A416007133B8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 11F52F3A1ED2A416007133B8 /* GoogleService-Info.plist */; };
@@ -163,6 +167,7 @@
 		11C6654E1ED56D8D00DD889F /* QuizScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizScene.swift; sourceTree = "<group>"; };
 		11C665511ED5735600DD889F /* BaseScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseScene.swift; sourceTree = "<group>"; };
 		11C665541ED5CAB800DD889F /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
+		11C665581ED5D34100DD889F /* ManaQuiz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManaQuiz.swift; sourceTree = "<group>"; };
 		11F52F3A1ED2A416007133B8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3B68A710439A80BD2B42B1D5 /* Pods-Mana Quiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mana Quiz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mana Quiz/Pods-Mana Quiz.debug.xcconfig"; sourceTree = "<group>"; };
 		5E408F9FE0CC0CF0797CAE78 /* Pods_Mana_QuizUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mana_QuizUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -227,18 +232,18 @@
 		110D174F1ED07C7D001C13D0 /* Mana Quiz */ = {
 			isa = PBXGroup;
 			children = (
-				11C665441ED555AE00DD889F /* SpriteKit */,
-				112643721ED1C7FC005E8FB2 /* data */,
+				110D17501ED07C7D001C13D0 /* AppDelegate.swift */,
+				110D17571ED07C7D001C13D0 /* Assets.xcassets */,
 				110D17811ED0970C001C13D0 /* CardMagusKit */,
 				110D17801ED0826A001C13D0 /* Controller */,
-				110D177F1ED08264001C13D0 /* View */,
-				110D177E1ED0825D001C13D0 /* Model */,
-				110D17501ED07C7D001C13D0 /* AppDelegate.swift */,
-				110D17541ED07C7D001C13D0 /* Main.storyboard */,
-				110D17571ED07C7D001C13D0 /* Assets.xcassets */,
-				110D17591ED07C7D001C13D0 /* LaunchScreen.storyboard */,
-				110D175C1ED07C7D001C13D0 /* Info.plist */,
+				112643721ED1C7FC005E8FB2 /* data */,
 				11F52F3A1ED2A416007133B8 /* GoogleService-Info.plist */,
+				110D175C1ED07C7D001C13D0 /* Info.plist */,
+				110D17591ED07C7D001C13D0 /* LaunchScreen.storyboard */,
+				110D17541ED07C7D001C13D0 /* Main.storyboard */,
+				11C665441ED555AE00DD889F /* SpriteKit */,
+				11C665571ED5D31B00DD889F /* Utilities */,
+				110D177F1ED08264001C13D0 /* View */,
 			);
 			path = "Mana Quiz";
 			sourceTree = "<group>";
@@ -259,13 +264,6 @@
 				110D17721ED07C7D001C13D0 /* Info.plist */,
 			);
 			path = "Mana QuizUITests";
-			sourceTree = "<group>";
-		};
-		110D177E1ED0825D001C13D0 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Model;
 			sourceTree = "<group>";
 		};
 		110D177F1ED08264001C13D0 /* View */ = {
@@ -353,6 +351,14 @@
 				11C6654E1ED56D8D00DD889F /* QuizScene.swift */,
 			);
 			name = SpriteKit;
+			sourceTree = "<group>";
+		};
+		11C665571ED5D31B00DD889F /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				11C665581ED5D34100DD889F /* ManaQuiz.swift */,
+			);
+			name = Utilities;
 			sourceTree = "<group>";
 		};
 		3E1E937669B427BD5ADBF04F /* Frameworks */ = {
@@ -494,6 +500,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11C6655C1ED5D8AD00DD889F /* Card Magus.xcdatamodeld in Resources */,
 				11C665551ED5CAB800DD889F /* fonts in Resources */,
 				110D175B1ED07C7D001C13D0 /* LaunchScreen.storyboard in Resources */,
 				11F52F3B1ED2A416007133B8 /* GoogleService-Info.plist in Resources */,
@@ -701,6 +708,7 @@
 				110D17CB1ED0A3AF001C13D0 /* CMLayout+CoreDataProperties.swift in Sources */,
 				110D17C61ED0A3AF001C13D0 /* CMFormat+CoreDataClass.swift in Sources */,
 				110D17C11ED0A3AF001C13D0 /* CMCardType+CoreDataProperties.swift in Sources */,
+				11C665591ED5D34100DD889F /* ManaQuiz.swift in Sources */,
 				11C665521ED5735600DD889F /* BaseScene.swift in Sources */,
 				110D17BE1ED0A3AF001C13D0 /* CMCardLegality+CoreDataClass.swift in Sources */,
 				110D17CE1ED0A3AF001C13D0 /* CMRarity+CoreDataClass.swift in Sources */,
@@ -726,6 +734,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				110D17661ED07C7D001C13D0 /* Mana_QuizTests.swift in Sources */,
+				11C6655A1ED5D34100DD889F /* ManaQuiz.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -734,6 +743,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				11C6654A1ED5580500DD889F /* MenuScene.swift in Sources */,
+				11C6655B1ED5D34100DD889F /* ManaQuiz.swift in Sources */,
 				11C665501ED56D8D00DD889F /* QuizScene.swift in Sources */,
 				110D17711ED07C7D001C13D0 /* Mana_QuizUITests.swift in Sources */,
 				1126436E1ED1C310005E8FB2 /* MenuViewController.swift in Sources */,
