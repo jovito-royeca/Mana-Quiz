@@ -43,5 +43,13 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>fonts/beleren-bold-webfont.ttf</string>
+		<string>fonts/belerensmallcaps-bold-webfont.ttf</string>
+		<string>fonts/Goudy Medieval.ttf</string>
+		<string>fonts/Matrix Bold.ttf</string>
+		<string>fonts/MPlantin.ttf</string>
+	</array>
 </dict>
 </plist>

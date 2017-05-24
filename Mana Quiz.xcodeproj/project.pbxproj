@@ -70,6 +70,8 @@
 		11C665501ED56D8D00DD889F /* QuizScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C6654E1ED56D8D00DD889F /* QuizScene.swift */; };
 		11C665521ED5735600DD889F /* BaseScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C665511ED5735600DD889F /* BaseScene.swift */; };
 		11C665531ED5735600DD889F /* BaseScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11C665511ED5735600DD889F /* BaseScene.swift */; };
+		11C665551ED5CAB800DD889F /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 11C665541ED5CAB800DD889F /* fonts */; };
+		11C665561ED5CAB800DD889F /* fonts in Resources */ = {isa = PBXBuildFile; fileRef = 11C665541ED5CAB800DD889F /* fonts */; };
 		11F52F3B1ED2A416007133B8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 11F52F3A1ED2A416007133B8 /* GoogleService-Info.plist */; };
 		11F52F3C1ED2A416007133B8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 11F52F3A1ED2A416007133B8 /* GoogleService-Info.plist */; };
 		11F52F3D1ED2A416007133B8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 11F52F3A1ED2A416007133B8 /* GoogleService-Info.plist */; };
@@ -160,6 +162,7 @@
 		11C6654B1ED56D7400DD889F /* QuizScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = QuizScene.sks; sourceTree = "<group>"; };
 		11C6654E1ED56D8D00DD889F /* QuizScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizScene.swift; sourceTree = "<group>"; };
 		11C665511ED5735600DD889F /* BaseScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseScene.swift; sourceTree = "<group>"; };
+		11C665541ED5CAB800DD889F /* fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; path = fonts; sourceTree = "<group>"; };
 		11F52F3A1ED2A416007133B8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3B68A710439A80BD2B42B1D5 /* Pods-Mana Quiz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mana Quiz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Mana Quiz/Pods-Mana Quiz.debug.xcconfig"; sourceTree = "<group>"; };
 		5E408F9FE0CC0CF0797CAE78 /* Pods_Mana_QuizUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mana_QuizUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -334,6 +337,7 @@
 		112643721ED1C7FC005E8FB2 /* data */ = {
 			isa = PBXGroup;
 			children = (
+				11C665541ED5CAB800DD889F /* fonts */,
 				112643731ED1C86C005E8FB2 /* audio */,
 			);
 			name = data;
@@ -490,6 +494,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11C665551ED5CAB800DD889F /* fonts in Resources */,
 				110D175B1ED07C7D001C13D0 /* LaunchScreen.storyboard in Resources */,
 				11F52F3B1ED2A416007133B8 /* GoogleService-Info.plist in Resources */,
 				11C665461ED555EE00DD889F /* MenuScene.sks in Resources */,
@@ -518,6 +523,7 @@
 				11F52F3D1ED2A416007133B8 /* GoogleService-Info.plist in Resources */,
 				11C6654D1ED56D7400DD889F /* QuizScene.sks in Resources */,
 				11C665471ED555EE00DD889F /* MenuScene.sks in Resources */,
+				11C665561ED5CAB800DD889F /* fonts in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

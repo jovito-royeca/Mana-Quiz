@@ -14,6 +14,9 @@ import GameplayKit
 class BaseScene: SKScene {
     
     // MARK: Variables
+    let kClassicFont              = "Magic:the Gathering"
+    let kEightEditionFont         = "Matrix-Bold"
+    let kLatestFont               = "Beleren"
     var previousScene:SKScene?
     
     // MARK: Overrides
@@ -26,7 +29,7 @@ class BaseScene: SKScene {
         let backgroundImage = UIImage(named: "background")
         let backgroundRect = CGRect(origin: CGPoint.zero, size: backgroundImage!.size)
         
-        UIGraphicsBeginImageContext(self.size)
+        UIGraphicsBeginImageContext(size)
         var context = UIGraphicsGetCurrentContext();
         context!.draw(backgroundImage!.cgImage!, in: backgroundRect, byTiling: true)
         let tiledBackground = UIGraphicsGetImageFromCurrentImageContext()
@@ -41,7 +44,7 @@ class BaseScene: SKScene {
         
         
         let circleImage = UIImage(named: "circle")
-        let circleSize = CGSize(width: self.size.width, height: self.size.width)
+        let circleSize = CGSize(width: size.width, height: size.width)
         let circleRect = CGRect(origin: CGPoint.zero, size: circleSize)
         
         UIGraphicsBeginImageContext(circleSize)
@@ -52,7 +55,7 @@ class BaseScene: SKScene {
         
         let circleTexture = SKTexture(cgImage: circleBackground!.cgImage!)
         let circleNode = SKSpriteNode(texture: circleTexture)
-        circleNode.position = CGPoint(x: 0, y: (self.size.height - self.size.width) / 2)
+        circleNode.position = CGPoint(x: 0, y: (size.height - size.width) / 2)
         circleNode.zPosition = -1
         addChild(circleNode)
     }

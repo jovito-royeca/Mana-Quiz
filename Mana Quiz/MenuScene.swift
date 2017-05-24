@@ -14,19 +14,30 @@ import GameplayKit
 class MenuScene: BaseScene {
     
     // MARK: Variables
+    private var titleLabel : SKLabelNode?
     private var playLabel : SKLabelNode?
+    private var accountLabel : SKLabelNode?
+    private var leaderboardLabel : SKLabelNode?
     
     // MARK: Overrides
     override func sceneDidLoad() {
         super.sceneDidLoad()
         
-        playLabel = self.childNode(withName: "//playLabel") as? SKLabelNode
+        titleLabel = childNode(withName: "//titleLabel") as? SKLabelNode
+        playLabel = childNode(withName: "//playLabel") as? SKLabelNode
+        accountLabel = childNode(withName: "//accountLabel") as? SKLabelNode
+        leaderboardLabel = childNode(withName: "//leaderboardLabel") as? SKLabelNode
+        
+        titleLabel!.fontName = kClassicFont
+        playLabel!.fontName = kClassicFont
+        accountLabel!.fontName = kClassicFont
+        leaderboardLabel!.fontName = kClassicFont
     }
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         if let touch = touches.first {
             let pos = touch.location(in: self)
-            let node = self.atPoint(pos)
+            let node = atPoint(pos)
             
             if node == playLabel {
                 if let view = view {
