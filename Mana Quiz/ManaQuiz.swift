@@ -33,8 +33,7 @@ class ManaQuiz: NSObject {
         // TODO: do not fetch Gleemax
         
         let request:NSFetchRequest<CMCard> = CMCard.fetchRequest() as! NSFetchRequest<CMCard>
-        // TO DO: exclude lands
-        request.predicate = NSPredicate(format: "name != %@", "Gleemax")
+        request.predicate = NSPredicate(format: "name != %@ AND cmc >= 1", "Gleemax")
         
         let cards = try! dataStack?.mainContext.fetch(request)
         let random = Int(arc4random()) % (cards!.count - 1) + 1
